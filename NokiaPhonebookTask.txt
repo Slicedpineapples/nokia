@@ -1,0 +1,31 @@
+NokiaPhonebookTask
+
+Write a class in C++ or Java language that meets the following requirements.
+
+- It is a phonebook. It should contain phone numbers and subscribers. 
+    For any subscriber, one or more phone numbers can be assigned. 
+    For any phone number exactly one subscriber can be assigned.
+- Provide a search by phone number function which returns a string 
+    or throws an exception if there is no match.
+- Provide a search by subscriber function which returns a list 
+    of phone numbers.
+- Make both searches as efficient as possible.
+- The internal representation is up to you, but do NOT use any advanced 
+    data structures provided by the language or frameworks. 
+    Arrays, enums, classes, records, pointers can be used, 
+    but Vectors, Lists, Maps, etc. are not allowed.
+- Provide a function that expects two parameters (name and phone number)
+    and adds these to your phonebook as a pair. 
+    It should throw an exception when the exact same record is already 
+    in the phonebook, or if the input is malformed.
+- Provide another function with these parameters. 
+    These function will delete the given record from the phonebook. 
+    If no such entry, throw an exception.
+- Subscriber's name could be anything. 
+- Accepted phone number format should be configurable 
+    externally (e.g. as a command line argument). 
+    Use regular expressions for phone number validation.
+- Create a command line app or a unit test set to present the features of your class.
+- Write a short documentation about the functions and the usage of the application/classes.
+
+Write clean, well-organized, self documenting code.
